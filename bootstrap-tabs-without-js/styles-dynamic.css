@@ -66,11 +66,6 @@ body {
   margin-right: 10px;
 }
 
-#tsum-tabs label[for*='1']:before { content: '\f1cb'; }
-#tsum-tabs label[for*='2']:before { content: '\f17d'; }
-#tsum-tabs label[for*='3']:before { content: '\f16b'; }
-#tsum-tabs label[for*='4']:before { content: '\f1a9'; }
-
 #tsum-tabs label:hover {
   color: #888;
   cursor: pointer;
@@ -82,13 +77,6 @@ body {
   /*! border-top: 2px solid orange; */
   border-bottom: 1px solid #fff;
   border-radius: 4px;
-}
-
-#tsum-tabs #tab1:checked ~ #content1,
-#tsum-tabs #tab2:checked ~ #content2,
-#tsum-tabs #tab3:checked ~ #content3,
-#tsum-tabs #tab4:checked ~ #content4 {
-  display: block;
 }
 
 @media screen and (max-width: 650px) {
